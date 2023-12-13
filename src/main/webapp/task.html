@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-decoration: underline dotted;
+            text-align: center;
+        }
+        div{
+            border: 1px solid black;
+            text-align: center;
+        }
+        #tk{
+            margin-left: 450px;
+        }
+        #tds{
+            margin-left: 490px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    	<fieldset>
+    	<legend style="text-align: center; font-size: larger;">Task adder</legend>
+        <h1>Add task here.</h1>
+        <form action="" method="post">
+            <table>
+                <tr>
+                    <td>
+                        <label for="task" id="tk">Task name:</label>
+                        <input type="text" name="task" id="">
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <label for="taskDesc" id="tds">Task description:</label>
+                        <input type="text" name="taskDesc" id="">
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <button formaction="addTask">Add Task</button>
+            <button formaction="Login">Back</button>
+        </form>
+        </fieldset>
+    </div>
+   
+</body>
+</html>

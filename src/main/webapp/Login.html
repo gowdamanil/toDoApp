@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+<style>
+    *{
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        
+        .logo{
+            background-color: black;
+            color: white;
+            text-align: center;
+            border: 1px solid black;
+            height: 5vh;
+            padding: 10px 10px;
+            font-size: xx-large;
+        }
+    
+        .newAcc{
+            text-align: center;
+        }
+
+        .row1 {
+            margin-top: 60px;
+            margin-left: 43vw;
+            display: flex;
+            align-items: center;
+        }
+
+        .row2{
+            margin-top: 40px;
+            margin-left: 41.2vw;
+            display: flex;
+            align-items: center;
+        }
+
+</style>
+</head>
+<body>
+
+ <header>
+    <nav class="head">
+        <div class="logo">
+            toDo Login
+        </div>
+    </nav>
+   </header>
+   
+   <br>
+	<h1>Login Now!!!</h1>
+   <br>
+	
+   <form action="" method="post">
+
+    <table>
+        <tr class="row1">
+            <td><label for="email">Email:</label></td>
+            <td><input type="email" name="email" id=""></td>
+        </tr>
+        <tr class="row2">
+           <td>
+            <label for="pwd">Password:</label>
+           </td> 
+           <td><input type="password" name="pwd" id=""></td>
+        </tr>
+    </table>
+    <br>
+    <button formaction="Login">Login</button>
+    <button>Cancel</button>
+   </form>
+
+   <br>
+   <div class="newAcc">
+    <h4>Don't have an account?</h4>
+    <a href="SignUp.html">Create account</a>
+   </div>
+   
+</body>
+</html>
